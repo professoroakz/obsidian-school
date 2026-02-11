@@ -2,13 +2,13 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="obsidian-pub",
+    name="obsidian-school",
     use_scm_version=True,
     setup_requires=["setuptools_scm"],
     packages=find_packages(),
     entry_points={
         "console_scripts": [
-            "obsidian-pub=obsidian_pub.cli:main",
+            "obsidian-school=obsidian_school.cli:main",
         ],
     },
 )

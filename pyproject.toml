@@ -3,16 +3,16 @@ requires = ["setuptools>=45", "wheel", "setuptools_scm>=6.2"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "obsidian-pub"
+name = "obsidian-school"
 version = "0.1.0"
-description = "A command-line tool for managing Obsidian markdown notes with git"
+description = "A command-line tool for managing Obsidian markdown notes for school with git"
 readme = "README.md"
 requires-python = ">=3.8"
 license = {text = "MIT"}
 authors = [
     {name = "professoroakz", email = "professoroakz@users.noreply.github.com"}
 ]
-keywords = ["obsidian", "markdown", "notes", "git", "vault", "cli"]
+keywords = ["obsidian", "markdown", "notes", "git", "vault", "cli", "school"]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
@@ -40,16 +40,16 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/professoroakz/obsidian-pub"
-Repository = "https://github.com/professoroakz/obsidian-pub"
-Issues = "https://github.com/professoroakz/obsidian-pub/issues"
+Homepage = "https://github.com/professoroakz/obsidian-school"
+Repository = "https://github.com/professoroakz/obsidian-school"
+Issues = "https://github.com/professoroakz/obsidian-school/issues"
 
 [project.scripts]
-obsidian-pub = "obsidian_pub.cli:main"
+obsidian-school = "obsidian_school.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["obsidian_pub*"]
+include = ["obsidian_school*"]
 
 [tool.black]
 line-length = 100

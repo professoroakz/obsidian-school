@@ -1,10 +1,10 @@
 {
-  "name": "obsidian-pub",
+  "name": "obsidian-school",
   "version": "0.1.0",
-  "description": "A command-line tool for managing Obsidian markdown notes with git",
+  "description": "A command-line tool for managing Obsidian markdown notes for school with git",
   "main": "index.js",
   "bin": {
-    "obsidian-pub": "./bin/obsidian-pub.js"
+    "obsidian-school": "./bin/obsidian-school.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -20,18 +20,19 @@
     "git",
     "vault",
     "cli",
-    "sync"
+    "sync",
+    "school"
   ],
   "author": "professoroakz <professoroakz@users.noreply.github.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/professoroakz/obsidian-pub.git"
+    "url": "git+https://github.com/professoroakz/obsidian-school.git"
   },
   "bugs": {
-    "url": "https://github.com/professoroakz/obsidian-pub/issues"
+    "url": "https://github.com/professoroakz/obsidian-school/issues"
   },
-  "homepage": "https://github.com/professoroakz/obsidian-pub#readme",
+  "homepage": "https://github.com/professoroakz/obsidian-school#readme",
   "engines": {
     "node": ">=14.0.0"
   },

@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     
     # Only run on main repository, not forks
-    if: github.repository == 'professoroakz/obsidian-pub'
+    if: github.repository == 'professoroakz/obsidian-school'
     
     steps:
     - name: Checkout code

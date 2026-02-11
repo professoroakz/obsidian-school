@@ -1,5 +1,5 @@
 # Makefile for Obsidian Vault Management
-# obsidian-pub - Obsidian iCloud 2026 Markdown Notes
+# obsidian-school - Obsidian Markdown Notes for School
 
 .PHONY: help init clean sync backup verify test install-hooks status stats update quick-commit check list-tags push pull lint count docker-build docker-run python-install python-dev npm-install npm-dev brew-install submodule-init submodule-update submodule-status
 
@@ -14,7 +14,7 @@ RED := \033[0;31m
 NC := \033[0m # No Color
 
 # Project variables
-PROJECT_NAME := obsidian-pub
+PROJECT_NAME := obsidian-school
 DOCKER_IMAGE := $(PROJECT_NAME):latest
 PYTHON_VERSION := 3.9
 
@@ -230,10 +230,10 @@ docker-clean: ## Remove Docker images
 
 brew-install: ## Install via Homebrew (for development)
 	@echo "$(CYAN)Installing via Homebrew...$(NC)"
-	@brew install --build-from-source Formula/obsidian-pub.rb || echo "$(YELLOW)Run from homebrew tap$(NC)"
+	@brew install --build-from-source Formula/obsidian-school.rb || echo "$(YELLOW)Run from homebrew tap$(NC)"
 
 brew-test: ## Test Homebrew formula
-	@brew install --build-from-source --verbose --debug Formula/obsidian-pub.rb
+	@brew install --build-from-source --verbose --debug Formula/obsidian-school.rb
 
 # ===== Update & Maintenance =====
 

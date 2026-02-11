@@ -54,4 +54,4 @@ For security concerns:
 - Create a security advisory on GitHub
 - Email: <professoroakz@users.noreply.github.com>
 
-Thank you for helping keep obsidian-pub secure! 🔒
+Thank you for helping keep obsidian-school secure! 🔒

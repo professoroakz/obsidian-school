@@ -1,4 +1,4 @@
-# Contributing to obsidian-pub
+# Contributing to obsidian-school
 
 Thank you for considering contributing to this project! 🎉
 

@@ -6,7 +6,7 @@ on:
     paths:
       - 'Dockerfile'
       - 'docker-compose.yml'
-      - 'obsidian_pub/**'
+      - 'obsidian_school/**'
       - '.github/workflows/docker.yml'
   pull_request:
     branches: [ main ]

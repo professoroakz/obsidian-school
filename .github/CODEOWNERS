@@ -16,7 +16,7 @@ Makefile @professoroakz
 *.json @professoroakz
 
 # Python package
-/obsidian_pub/ @professoroakz
+/obsidian_school/ @professoroakz
 setup.py @professoroakz
 pyproject.toml @professoroakz
 

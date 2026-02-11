@@ -1,0 +1,94 @@
+# OS specific
+# Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/plugins/recent-files-obsidian/data.json
+.trash/
+.hotreload
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.swp
+*.swo
+*~
+.tmp
+*.log
+*.bak
+*.backup
+*.tmp
+
+# Obsidian workspace
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Local configuration
+.env.local
+.env
+.env.*.local
+
+# Build artifacts
+dist/
+build/
+out/
+*.egg-info/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.dylib
+*.dll
+*.o
+*.a
+*.out
+
+# Dependencies
+node_modules/
+.pnpm-store/
+venv/
+env/
+ENV/
+
+# Backup files
+.dotfiles_backup_*
+*.old
+backups/
+
+# Sync conflicts
+*conflict*.md
+
+# Package managers
+*.egg
+*.whl
+package-lock.json
+yarn.lock
+npm-debug.log*
+
+# Archives
+*.tar.gz
+*.zip
+*.tar
+
+# C/C++ build
+c_src/build/
+
+# Docker
+.dockerignore
+
